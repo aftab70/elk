@@ -1,4 +1,26 @@
-How to get Heap Memory 
+
+
+
+
+########################################################################################################################
+
+# Elasticsearch is installed. Now go to the configuration directory and edit the elasticsaerch.yml configuration file.
+
+vim /etc/elasticsearch/elasticsearch.yml
+
+# Enable memory lock for Elasticsearch by removing the comment on line 43. We do this to disable swapping memory for Elasticsearchto avoid overloading the server.
+
+bootstrap.memory_lock: true
+
+# How to get Heap Memory
+
 curl -sS -XGET "localhost:9200/_cat/nodes?h=heap*&v"
 
 vim /etc/elasticsearch/jvm.options
+
+#########################################################################################################################
+
+
+
+
+

@@ -1,0 +1,4 @@
+How to get Heap Memory 
+curl -sS -XGET "localhost:9200/_cat/nodes?h=heap*&v"
+
+vim /etc/elasticsearch/jvm.options

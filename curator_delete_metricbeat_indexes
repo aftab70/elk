@@ -2,8 +2,8 @@
 Step 1 :- 
 
 Create ant hidden file any path like 
-
-mkdir /root/.curator/curator.yml
+mkdir /root/.curator
+vim /root/.curator/curator.yml
  and the following code :--
  -----------------------------------------------------------------------------------------------------------------------------
  

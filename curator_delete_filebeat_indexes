@@ -1,5 +1,4 @@
 -------------------------------- Configuration of Curator to delete filebeat indexes ------------------------------------------
--------------------------------- Configuration of Curator to delete metricbeat indexes ----------------------------------------
 
 STEP 1 :- Install elasticsearch-curator using pip by following the commanads.
 

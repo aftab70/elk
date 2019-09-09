@@ -1,10 +1,18 @@
 -------------------------------- Configuration of Curator to delete metricbeat indexes ----------------------------------------
-Step 1 :- 
 
-Create ant hidden file any path like 
+STEP 1 :- Install elasticsearch-curator using pip by following the commanads.
+
+pip install elasticsearch-curator
+
+Step 2 :- 
+
+Create any hidden file any path like
+
 mkdir /root/.curator
+
 vim /root/.curator/curator.yml
- and the following code :--
+
+and the following code :--
  -----------------------------------------------------------------------------------------------------------------------------
  
  # Remember, leave a key empty if there is no value.  None will be a string,
